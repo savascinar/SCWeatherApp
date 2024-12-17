@@ -1,5 +1,6 @@
 package com.savas.scweatherapp.di
 
+import com.savas.scweatherapp.network.SCWeatherAppKeyInterceptor
 import com.savas.scweatherapp.network.WeatherApi
 import dagger.Module
 import dagger.Provides

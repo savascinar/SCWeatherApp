@@ -1,4 +1,4 @@
-package com.savas.scweatherapp.di
+package com.savas.scweatherapp.network
 
 import okhttp3.Interceptor
 import okhttp3.Response
