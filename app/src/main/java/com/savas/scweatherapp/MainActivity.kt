@@ -41,9 +41,11 @@ class MainActivity : ComponentActivity() {
                             query = query,
                             onQueryChanged = { query = it },
                             onSearchTriggered = {
-                                navController.navigate("search") {
-                                    launchSingleTop = true
-                                    popUpTo("search") { inclusive = true }
+                                if(query.isNotEmpty()) {
+                                    navController.navigate("search") {
+                                        launchSingleTop = true
+                                        popUpTo("search") { inclusive = true }
+                                    }
                                 }
 
                             }

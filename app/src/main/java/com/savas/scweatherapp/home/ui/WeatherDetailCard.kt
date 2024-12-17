@@ -14,6 +14,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import com.savas.scweatherapp.R
 import com.savas.scweatherapp.ui.common.TemperatureUI
+import com.savas.scweatherapp.util.FormatHelper
 
 @Composable
 fun WeatherDetailCard(humidity: Int, uv: Double, tempFeelLike: Double) {
@@ -37,7 +38,7 @@ fun WeatherDetailCard(humidity: Int, uv: Double, tempFeelLike: Double) {
             WeatherDetailCardColumn(
                 Modifier.weight(1f),
                 stringResource(id = R.string.uv),
-                uv.toString()
+                FormatHelper.formatUV(uv)
             )
 
             WeatherDetailCardColumn(
