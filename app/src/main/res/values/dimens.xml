@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="search_bar_padding">24dp</dimen>
+    <dimen name="search_bar_inner_vertical_padding">4dp</dimen>
+    <dimen name="search_bar_inner_horizontal_padding">8dp</dimen>
+    <dimen name="search_bar_bg_shape_size">16dp</dimen>
+    <dimen name="search_icon_padding">5dp</dimen>
+
+    <dimen name="minimum_celsius_icons_size">5dp</dimen>
+
+    <dimen name="weather_detail_card_top_large_margin">15dp</dimen>
+    <dimen name="weather_detail_card_top_small_margin">2dp</dimen>
+
+    <dimen name="weather_detail_card_bottom_large_margin">15dp</dimen>
+    <dimen name="weather_detail_card_bottom_small_margin">2dp</dimen>
+
+    <dimen name="weather_detail_card_side_margin">5dp</dimen>
+
+    <dimen name="weather_detail_card_large_text">18sp</dimen>
+    <dimen name="weather_detail_card_small_text">12sp</dimen>
+
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_shape_size">8dp</dimen>
+
+    <dimen name="weather_arrow_size">24dp</dimen>
+
+    <dimen name="weather_arrow_side_margin">10dp</dimen>
+
+    <dimen name="weather_info_text_size">36sp</dimen>
+    <dimen name="search_temp_text_size">48sp</dimen>
+
+    <dimen name="weather_info_temp_text_size">72sp</dimen>
+
+    <dimen name="weather_info_bottom_margin">15dp</dimen>
+    <dimen name="weather_info_temp_bottom_margin">35dp</dimen>
+
+    <dimen name="prompt_search__large_text">36sp</dimen>
+    <dimen name="prompt_search__small_text">16sp</dimen>
+    <dimen name="prompt_search_padding">20dp</dimen>
+
+    <dimen name="search_result_card_padding">16dp</dimen>
+    <dimen name="search_location_icon_size">100dp</dimen>
+    <dimen name="search_location_icon_padding">5dp</dimen>
+    <dimen name="search_temp_padding">10dp</dimen>
+    <dimen name="search_location_text_size">18sp</dimen>
+
+    <dimen name="search_location_text_start_padding">10dp</dimen>
+    <dimen name="search_location_text_top_padding">10dp</dimen>
+    <dimen name="search_location_text_end_padding">10dp</dimen>
+    <dimen name="search_location_text_bottom_padding">5dp</dimen>
+
+    <dimen name="search_location_container_start_padding">10dp</dimen>
+    <dimen name="search_location_container_top_padding">5dp</dimen>
+
+    <dimen name="search_result_list_top_padding">10dp</dimen>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SCWeatherApp</string>
+
+    <string name="unknown_error">Oops! Something went wrong. Please try again.</string>
+    <string name="network_error">Oops! Something went wrong. Please check your internet connection and try again.</string>
+    <string name="server_error">Oops! There seems to be a problem with the server. Please try again later.</string>
+    <string name="resource_error">Requested data not found.</string>
+    <string name="http_error">Oops! Something went wrong with the server. Please try again later.</string>
+
+    <string name="search_location">Search Location</string>
+    <string name="search_symbol">Search Symbol</string>
+    <string name="celsius_symbol">Celsius Symbol</string>
+    <string name="upright_arrow_icon">UpRightArrow Icon</string>
+
+    <string name="humidity">Humidity</string>
+    <string name="uv">UV</string>
+    <string name="feels_like">Feels Like</string>
+
+    <string name="no_city_selected">No City Selected</string>
+    <string name="please_search_for_a_city">Please Search For A City</string>
+
+
+
+</resources>
