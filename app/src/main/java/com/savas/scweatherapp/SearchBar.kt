@@ -18,7 +18,6 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import com.savas.scweatherapp.util.ModifierHelper.outerPadding
 
 @Composable
 fun SearchBar(
@@ -29,7 +28,12 @@ fun SearchBar(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .outerPadding()
+            .padding(
+                top = dimensionResource(id = R.dimen.search_bar_padding),
+                bottom = dimensionResource(id = R.dimen.search_bar_padding),
+                start = dimensionResource(id = R.dimen.search_bar_side_padding),
+                end = dimensionResource(id = R.dimen.search_bar_side_padding)
+            )
             .background(
                 colorResource(id = R.color.weather_light_gray),
                 shape = RoundedCornerShape(dimensionResource(id = R.dimen.search_bar_bg_shape_size))
