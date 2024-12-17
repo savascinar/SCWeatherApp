@@ -40,7 +40,7 @@ class SearchViewModel @Inject constructor(
 
             if (response is Resource.Success) {
                 val resulData = getCurrentWeathers(response.data)
-                searchUIStateInternal.value = SearchUIState.Data(resulData)
+                searchUIStateInternal.value = SearchUIState.SearchData(resulData)
             } else if (response is Resource.Error) {
                 searchUIStateInternal.value =
                     SearchUIState.Error(ErrorHelper.getErrorType(response.exception))

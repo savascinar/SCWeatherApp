@@ -52,8 +52,8 @@ fun SearchScreen(
             )
         }
 
-        is SearchUIState.Data -> {
-            val results = (uiState as SearchUIState.Data).searchResults
+        is SearchUIState.SearchData -> {
+            val results = (uiState as SearchUIState.SearchData).searchResults
 
             LazyColumn(modifier = modifier.padding(top = dimensionResource(id = R.dimen.search_result_list_top_padding))) {
                 items(results.size) { index ->
